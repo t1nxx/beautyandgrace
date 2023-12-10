@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+
+<title>cart checkout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+    	body{margin-top:20px;
+    background:#eee;
+}
+h3 {
+    font-size: 16px;
+}
+.text-navy {
+    color: #aeb31a;
+}
+.cart-product-imitation {
+  text-align: center;
+  padding-top: 30px;
+  height: 80px;
+  width: 80px;
+  background-color: #f8f8f9;
+}
+.product-imitation.xl {
+  padding: 120px 0;
+}
+.product-desc {
+  padding: 20px;
+  position: relative;
+}
+.ecommerce .tag-list {
+  padding: 0;
+}
+.ecommerce .fa-star {
+  color: #deded1;
+}
+.ecommerce .fa-star.active {
+  color: #f8ac59;
+}
+.ecommerce .note-editor {
+  border: 1px solid #ecece7;
+}
+table.shoping-cart-table {
+  margin-bottom: 0;
+}
+table.shoping-cart-table tr td {
+  border: none;
+  text-align: right;
+}
+table.shoping-cart-table tr td.desc,
+table.shoping-cart-table tr td:first-child {
+  text-align: left;
+}
+table.shoping-cart-table tr td:last-child {
+  width: 80px;
+}
+.ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+}
+.ibox.collapsed .ibox-content {
+  display: none;
+}
+.ibox:after,
+.ibox:before {
+  display: table;
+}
+.ibox-title {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #ffffff;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 3px 0 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 14px 15px 7px;
+  min-height: 48px;
+}
+.ibox-content {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+}
+.ibox-footer {
+  color: inherit;
+  border-top: 1px solid #e7eaec;
+  font-size: 90%;
+  background: #ffffff;
+  padding: 10px 15px;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: rgba(237, 212, 27, 0.797);
+    border-color: rgba(237, 212, 27, 0.797);
+    color: black; /* Set text color to black when hovering */
+}
+.custom-btn {
+    color: black;
+}
+.remove-item-link {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.remove-item-link:hover {
+    color: rgb(197, 197, 27);
+}
+.add-gift-link {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.add-gift-link:hover {
+    color: rgb(190, 190, 31);
+}
+
+
+
+    </style>
+</head>
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+<div class="wrapper wrapper-content animated fadeInRight">
+<div class="row">
+<div class="col-md-9">
+<div class="ibox">
+<div class="ibox-title">
+<span class="pull-right">(<strong>1</strong>) item</span>
+<h5>Items in your cart</h5>
+</div>
+<div class="ibox-content">
+<div class="table-responsive">
+<table class="table shoping-cart-table">
+<tbody>
+<tr>
+<td width="90">
+
+<img src="src\Shop1.1.png" alt="" height="90" >
+</div>
+</td>
+<td class="desc">
+<h3>
+<a href="#" class="text-navy">Flawless Arbutin Lotion </a>
+</h3>
+<p class="small">
+</p>
+<dl class="small m-b-none">
+<dt>  Cellulite & Stretch Marks </dt>
+<dd>Arbutin fades hyperpigmentation meaning it works to fade sun spots, age spots, acne scars, and melasma. </dd>
+</dl>
+<div class="m-t-sm">
+<a href="#" class="text-muted"><i class="fa fa-gift"></i> Add gift package</a>
+|
+<a href="#" class="remove-item-link"><i class="fa fa-trash"></i> Remove item</a>
+
+</div>
+</td>
+<td>
+  ₱180,00
+<s class="small text-muted">₱230,00</s>
+</td>
+<td width="65">
+<input type="text" class="form-control" placeholder="1">
+</td>
+<td>
+<h4>
+  ₱180.00
+</h4>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="ibox-content">
+  <a href="payment_credit_card_form.html" class="btn btn-primary pull-right">
+    <i class="fa fa fa-shopping-cart"></i> Checkout
+</a>
+<a href="Shop_product_list.html">
+  <button class="btn btn-white custom-btn">
+    <i class="fa fa-arrow-left"></i> Continue shopping
+</button>
+
+</a>
+
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="ibox">
+<div class="ibox-title">
+<h5>Cart Summary</h5>
+</div>
+<div class="ibox-content">
+<span>
+Total
+</span>
+<h2 class="font-bold">
+  ₱180.00
+</h2>
+<hr>
+<span class="text-muted small">
+*For Philippines only
+</span>
+<div class="m-t-sm">
+<div class="btn-group">
+<a href="payment_credit_card_form.html" class="btn btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Checkout</a>
+<a href="#" class="btn btn-white btn-sm"> Cancel</a>
+</div>
+</div>
+</div>
+</div>
+<div class="ibox">
+<div class="ibox-title">
+<h5>Support</h5>
+</div>
+<div class="ibox-content text-center">
+<h3><i class="fa fa-phone"></i> +43 100 783 001</h3>
+<span class="small">
+Please contact with us if you have any questions. We are avalible 24h.
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>

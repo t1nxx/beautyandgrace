@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty & Graces</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<section id="header" class="header">
+    <style>
+        .custom-font {
+            font-family: sans-serif; 
+        }
+    </style>
+    
+    <a class="navbar-brand" href="#">
+        <div class="d-flex align-items-center justify-content-end px-2 py-2" style="border-radius: 50px;">
+            <img src="src/logo3.ico" style="width: 50px; mix-blend-mode: multiply;" alt="">
+            <h5 class="fw-bold mt-1 px-2 custom-font" style="color: black;">Beauty & Grace</h5>
+        </div>
+    </a>
+    </div>
+    
+<nav class="navbar">
+    <a href="#home">home</a>
+    <a href="about_us.html">about</a>
+    <a href="Shop_product_list.html">shop</a>
+    <a href="#sets">Sets</a>
+    <a href="#message">message</a>
+    <a href="distributor.html">Distributor</a>
+</nav>
+
+<div class="icons">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="Wishlist.html" class="fas fa-heart"></a>
+    <a href="shopping_cart_checkout.html" class="fas fa-shopping-cart"></a>
+    <a href="login.html" class="fas fa-user"></a>
+</div>
+</section>
+
+<section class="home" id="home">
+
+    <div class="slide active" style="background:url(src/blog1.jpg) no-repeat; background-size:cover;
+    background-position: center;">
+    <div class="content">
+    </div>
+    </div>
+
+    <div class="slide" style="background: url(src/blog2.jpg) no-repeat; background-size: cover; background-position: center;">
+        <div class="content">
+        </div>
+    </div>
+    
+
+    <div class="slide" style="background:url(src/blog3.jpg) no-repeat; background-size:cover;
+    background-position: center;">
+    <div class="content">
+    </div>
+    </div>
+
+    <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+</section>
+
+
+
+<!-- Product Head -->>
+
+<section class="category">
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img decoding="async" src="src\category1.png">
+            <h3>Hair and Face Deals</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="src\category2.png">
+            <h3>lips</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="src\category3.png">
+            <h3>Rejuvenating</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="src\category4.jpeg">
+            <h3>Soap</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="src\category5.jpeg">
+            <h3>Body Product</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="src\category6.png">
+            <h3>Perfume and Mist</h3>
+        </a>
+
+    </div>
+</section>
+
+
+
+<!-- "ABOUT US" dito makikita yung details ng company -->
+<section class="about" id="about">
+    <div class="img">
+        <img decoding="async" src="src\pic1.jpg" alt="">
+    </div>
+    <div class="content">
+        <div class="box">
+            <h3>About <span>Us...</span></h3>
+            <p> We are passionate about helping you achieve
+                healthy, radiant skin through our carefully curated range of skincare products At Beauty & Graces, 
+               we understand that your skin is unique and deserves the best care possible. 
+               That's why we have dedicated ourselves to creating high-quality skincare products that are effective, safe, 
+               and suitable for all skin types.</p>
+            <a href="about_us.html" class="btn">read more</a>
+            <a href="contact_page_section.html" class="btn">get in touch</a>
+
+        </div>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-address-card"></i>
+                <p>distributor card</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-award"></i>
+                <p>award cards</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-gift"></i>
+                <p>gift cards</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--"Pricing" ng products-->
+
+
+<section class="shop" id="shop">
+    <h1 class="heading">our <span>shop</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="src\Shop1.png">
+            </div>
+            <div class="content">
+                <h3>Arbutin Lotion</h3>
+                <div class="price">₱180<span>-₱200.99</span></div>
+                <a href="Lotion.html" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="src\Shop2.png">
+            </div>
+            <div class="content">
+                <h3>Spray</h3>
+                <div class="price">₱160<span>-₱200.99</span></div>
+                <a href="shop_product_detail.html" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="src\Shop3.png">
+            </div>
+            <div class="content">
+                <h3>Keratin</h3>
+                <div class="price">₱160<span>-₱200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="src\Shop4.png">
+            </div>
+            <div class="content">
+                <h3>Toner</h3>
+                <div class="price">₱160<span>-₱200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="src\Shop5.png">
+            </div>
+            <div class="content">
+                <h3>Soap</h3>
+                <div class="price">₱160<span>-₱200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="src\Shop6.jpeg">
+            </div>
+            <div class="content">
+                <h3>Botox Serum</h3>
+                <div class="price">₱160<span>-₱200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- "Special offer" dito ilalagay pag may mga pa flash deal promo-->
+
+<section class="banner">
+    <div class="content">
+        <span>special <span>offer</span></span>
+        <h3>upto 50% off</h3>
+        <p>Be part of our growing family. Experience the 50% voucher when you avail our ALL IN ENTRY PACKAGE</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+</section>
+
+
+
+<!-- "OUR GALLERY" Dito makikita yung mga buyer na nag review-->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">our <span>gallery</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img decoding="async" src="src\Gallery1.jpg">
+            <div class="content">
+                <h3>face</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="src\Gallery2.jpg">
+            <div class="content">
+                <h3>lips</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="src\Gallery3.jpg">
+            <div class="content">
+                <h3>sunscreen</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="src\Gallery4.jpg">
+            <div class="content">
+                <h3>toner</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="src\Gallery5.jpg">
+            <div class="content">
+                <h3>pack</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="src\Gallery6.jpg">
+            <div class="content">
+                <h3>lip gloss</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="services">
+
+    <div class="box">
+        <img decoding="async" src="src\free-shipping.png" alt="">
+        <h3>Cash on delivery</h3>
+    </div>
+
+    <div class="box">
+        <img decoding="async" src="src\secure-payment.png" alt="">
+        <h3>secure payments</h3>
+    </div>
+
+    <div class="box">
+        <img decoding="async" src="src\discount.png" alt="">
+        <h3>Free Incentives</h3>
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+            <a class="link" href="about_us.html"> <i class="fas fa-angle-right"></i> about</a>
+            <a class="link" href="Shop_product_list.html"> <i class="fas fa-angle-right"></i> shop</a>
+            <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
+            <a class="link" href="#message"> <i class="fas fa-angle-right"></i> message</a>
+            <a class="link" href="#blogs"> <i class="fas fa-angle-right"></i> blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> my favorite </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> my order </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> my wishlist </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> private policy </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> terms of use </a>
+        </div>
+
+        <div class="box">   
+            <h3>contact info</h3>
+            <a class="link" href="#"> <i class="fas fa-phone"></i> +6393-5710-7681 </a>
+            <a class="link" href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a class="link" href="#"> <i class="fas fa-envelope"></i> beautyandgraces@gmail.com </a>
+            <a class="link" href="#"> <i class="fas fa-map"></i> Cardona, Philippines, 1950 </a>
+            <div class="share">
+                <a href="https://web.facebook.com/BeautyxGraces" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>Beauty and Graces</span> || all rights reserved! </div>
+
+</section>
+
+
+
+ <script src="main.js" defer data-deferred="1"></script> </body>
+</html>
